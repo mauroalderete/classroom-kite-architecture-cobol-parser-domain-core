@@ -1,4 +1,10 @@
-# Classroom Guide
+# Classroom Guide <!-- ommit int toc -->
+
+- [Classroom Guide ](#classroom-guide-)
+  - [Steps](#steps)
+    - [Prepare the repository](#prepare-the-repository)
+    - [Create dotnet Solution](#create-dotnet-solution)
+  - [Nuget Configuration](#nuget-configuration)
 
 ## Steps
 
@@ -45,3 +51,7 @@ dotnet sln add CobolParser.Domain.Core.UnitTests/CobolParser.Domain.Core.UnitTes
 ```bash
 dotnet restore
 ```
+
+## Nuget Configuration
+
+https://learn.microsoft.com/es-mx/nuget/create-packages/creating-a-package-dotnet-cli

@@ -14,6 +14,14 @@
     <PackageProjectUrl>https://github.com/mauroalderete/classroom-kite-architecture-cobol-parser-domain-core</PackageProjectUrl>
     <PackageTags>Cobol, Parser, Domain, Kite Architecture</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Cedeira.Essentials.NET">
+      <HintPath>..\..\cedeira\Cedeira.Essentials.NET\Cedeira.Essentials.NET\bin\Debug\net8.0\Cedeira.Essentials.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
